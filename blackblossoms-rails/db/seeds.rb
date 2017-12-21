@@ -12,3 +12,7 @@ u3 = User.create!(username: "liz", first_name: "Elizabeth", last_name: "Egunjobi
 p1 = Post.create!(date: 112, heading: "sit amet" ,body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
 p2 = Post.create!(date: 112, heading: "arcu odio" ,body: "TNullam aliquam arcu odio, iaculis ornare nisi porttitor!")
 p3 = Post.create!(date: 112, heading: "metus in" ,body: "Aenean quis metus in leo finibus sagittis.?")
+
+a1 = Artist.create!(name: "Deola", profile_image: "Some pic", statement: "Ut iaculis lectus sollicitudin, mattis ligula vitae, commodo urna.", artwork: "dog")
+a2 = Artist.create!(name: "Zay", profile_image: "Some pic", statement: "Praesent eget rhoncus leo. Nunc a leo lorem", artwork: "cat")
+a3 = Artist.create!(name: "Misah", profile_image: "Some pic", statement: "Quisque aliquet nulla lectus, non dignissim libero dictum eu.", artwork: "mouse")

@@ -10,9 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171218224215) do
+ActiveRecord::Schema.define(version: 20171221221503) do
 
   create_table "artists", force: :cascade do |t|
+    t.string   "name"
     t.string   "profile_image"
     t.text     "statement"
     t.string   "artwork"
